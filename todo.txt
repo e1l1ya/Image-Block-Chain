@@ -1,0 +1,22 @@
+pip install -r requirements.txt
+
+# Run Script
+1) ترمینال و باز کن
+2) دستور اجرا کردن برنامه را بزن
+
+python .\main.py --username USERNAME --password PASSWORD --port PORT --url ADDRESS
+
+USERNAME = نام کاربری RTSP
+PASSWORD = رمز عبور
+PORT = پورت
+ADDRESS = آدرس ایپی و مسیر دوربین
+
+
+# VALID
+1) برای اعتبار سنجی hash ترمینال و باز می کنی
+2) دستور زیر را اجرا می کنی
+
+python .\validator.py --img "FILE_NAME" --last_hash "HASH"
+
+FILE_NAME = نام فایل
+HASH = هش قبلی فایل
